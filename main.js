@@ -5,8 +5,6 @@ const tableBody = document.querySelector("#table tbody");
 const clearBtn = document.querySelector("#clear-btn");
 
 createBtn.onclick = () => {
-    alert("Clicked");
-
     let prod = new Product(nameInput.value, priceInput.value);
     console.log(prod);
 
